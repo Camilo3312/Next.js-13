@@ -1,0 +1,27 @@
+.posts_list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+   
+    .post {
+        padding: 10px  25px;
+        border-radius: 20px;
+        background: #0a0a0a;
+        
+        .link > h3 {
+            &:hover {
+                color: #dcecff;
+                text-decoration: underline;
+            }
+        }
+
+        .title {
+            color: #e4e4e4;
+        }
+        
+        .body {
+            color: #adadad;
+        }
+    }
+}
